@@ -27,7 +27,7 @@ spec:
       terminationGracePeriodSeconds: 20 # ADDED:graceful shutdown for rolling updates
       containers:
         - name: url-shortener-api-container
-          image: khaledelhannat/url-shortener-api:2197a26993df10e3c0d3b86aee984091ec264df5
+          image: khaledelhannat/url-shortener-api:9395c3b7f8696f70ea19fdea13d71a4a6c4604c0
           ports:
             - containerPort: 8000
           # -----------------------------
