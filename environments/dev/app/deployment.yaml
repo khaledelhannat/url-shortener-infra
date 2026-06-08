@@ -12,7 +12,7 @@ spec:
   selector:
     matchLabels:
       app: url-shortener-api
-  replicas: 1
+  replicas: 2
 
   strategy:
     rollingUpdate:
